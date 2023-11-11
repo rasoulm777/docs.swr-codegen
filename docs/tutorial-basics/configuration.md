@@ -15,10 +15,12 @@ npm run swr-codegen --init
 # Steps
 
 ### step1
-- What would you like to name the config file
+- What would you like to name the config file ?
     - set a name to config file press enter.
-- Would you like to add a script to package.json
+- Would you like to add a script to package.json ?
     - recommend to say yes, create a script in package.json to run easy codegen.
+- what is your gateway address ?
+    - pass your graphql gateway address full url like ```https://graphqlzero.almansi.me/api```
 - What is the glob for your gql files ?
   - write a pattern for your graphql files like ```/**/*.gql```
 -  Where would you like to generate the code ?
